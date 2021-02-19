@@ -6,6 +6,7 @@ val MunitCatsEffectVersion = "0.12.0"
 
 lazy val root = (project in file("."))
   .settings(
+    mainClass := Some("com.example.http4squickstart.Main"),
     organization := "com.example",
     name := "http4squickstart",
     version := "0.0.1-SNAPSHOT",
